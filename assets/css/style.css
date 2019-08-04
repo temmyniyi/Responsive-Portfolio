@@ -214,3 +214,58 @@ input[type=submit] {
 /*This is where the @media screen css tags go*/
 /*three @media screen tags go here for max-width`s: `980px`, `768px` and `640px`*/
 /*These @media screen tags will work with the viewport meta tags in html*/
+@media screen and (max-width: 640px) {
+ 
+  .content-area {
+    width: 90%; 
+  }
+
+  #header-content {
+    width: 100%; 
+  }
+
+  #nav-title {
+    float: none; 
+    width: 100%
+  }
+
+  #nav-links {
+    float: none;
+    width: 100%; 
+    text-align: center; 
+    padding-bottom: 20px;
+  }
+
+  #nav-title h1 {
+    width: 100%; 
+    text-align: center; 
+  }
+}
+
+@media screen and (max-width: 768px) {
+ 
+  .content-area {
+    width: 90%; 
+  }
+
+  #header-content {
+    width: 100%; 
+  }
+}
+
+@media screen and (max-width: 980px) {
+/* I know this doesn't look exactly like the homework pic, but I like the way my site works better than how it looks in the example.  */
+  .content-area {
+    width: 90%; 
+  }
+
+  #header-content {
+    width: 100%; 
+  }
+
+  #bio-image {
+    float: none;
+    width: 90%;
+    align-items: center;
+  }
+}
