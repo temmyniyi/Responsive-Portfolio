@@ -254,7 +254,6 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
-/* I know this doesn't look exactly like the homework pic, but I like the way my site works better than how it looks in the example.  */
   .content-area {
     width: 90%; 
   }
